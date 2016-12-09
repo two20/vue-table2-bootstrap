@@ -1,8 +1,8 @@
 [![npm](https://img.shields.io/npm/v/vuetable-2.svg)](https://www.npmjs.com/package/vuetable-2)
 
-# vuetable-2
+# vuetable2-bootstrap
 
-> A Vue.js project
+> A Vue.js component for displayng table. Copied from https://github.com/ratiw/vue-table
 
 ## Build Setup
 
