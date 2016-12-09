@@ -55,7 +55,6 @@
     "webpack-hot-middleware": "^2.6.0",
     "webpack-merge": "^0.8.3"
   },
-  
   "license": "MIT",
   "maintainers": [
     {
@@ -73,5 +72,5 @@
     "test": "npm run unit && npm run e2e",
     "unit": "karma start test/unit/karma.conf.js --single-run"
   },
-  "version": "0.0.2"
+  "version": "0.1.0"
 }
