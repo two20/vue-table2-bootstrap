@@ -456,7 +456,6 @@ export default {
 
       if (i !== false) {
         if (this.sortOrder[i].direction == 'asc') {
-          console.log(this.css)
           cls[this.css.ascendingIcon] = true
         } else {
           cls[this.css.descendingIcon] = true
@@ -501,10 +500,8 @@ export default {
       let func = args.shift()
 
       if (typeof this.$parent[func] === 'function') {
-        console.log(field.name)
         if(field.name == '_computed_')
         {
-          console.log('special...')
           return this.$parent[func].apply(this.$parent,[item].concat(args))
         }
         else

@@ -92,7 +92,6 @@ export default {
       this.$emit('vuetable-pagination:change-page', page)
     },
     isCurrentPage (page) {
-      console.log('isCurrentPage',this.tablePagination.current_page);
       return page === this.tablePagination.current_page
     },
     setPaginationData (tablePagination) {
